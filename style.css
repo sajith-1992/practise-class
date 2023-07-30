@@ -1,4 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 ol{
-    list-style-type: disc;
+    list-style-type: decimal-leading-zero;
 }
