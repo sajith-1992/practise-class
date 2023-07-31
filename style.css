@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 ol{
-    list-style-type: decimal;                                                                                                                                                                     ;
-}
-ul {
     list-style-type:square;
-    text-align: center;
-    list-style-position:inside;
-    color:red;
+    color:blue;
+    list-style-image: url(/IMAGES/81OGT2Ca3IL-PhotoRoom.png);
+    list-style: square url(/IMAGES/81OGT2Ca3IL-PhotoRoom.png) inside;
+                                                                                                                                                                     
 }
