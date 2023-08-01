@@ -7,9 +7,12 @@ ol{
                                                                                                                                                                     
 
 }
- ul li:nth-child(odd) {
-    color:red;
+
+ul{
+    list-style-position: inside;
 }
-::marker{
-    color:cadetblue
+ul ::marker{
+    color:cadetblue;
+    content: "hai this is sajith    ";
+    
 }
