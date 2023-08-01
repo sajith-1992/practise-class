@@ -2,7 +2,11 @@
 ol{
     list-style-type:square;
     color:blue;
-    list-style-image: url(/IMAGES/81OGT2Ca3IL-PhotoRoom.png);
-    list-style: square url(/IMAGES/81OGT2Ca3IL-PhotoRoom.png) inside;
-                                                                                                                                                                     
+    /* list-style-image: url(/IMAGES/81OGT2Ca3IL-PhotoRoom.png);
+    list-style: square url(/IMAGES/81OGT2Ca3IL-PhotoRoom.png) inside; */
+                                                                                                                                                                    
+
+}
+ ul li:nth-child(odd) {
+    color:red;
 }
