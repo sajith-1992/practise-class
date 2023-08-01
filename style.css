@@ -10,3 +10,6 @@ ol{
  ul li:nth-child(odd) {
     color:red;
 }
+::marker{
+    color:cadetblue
+}
