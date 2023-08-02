@@ -7,6 +7,9 @@ ol{
                                                                                                                                                                     
 
 }
+li a {
+    display:block;
+}
 
 ul{
     list-style-position: inside;
@@ -16,8 +19,13 @@ ul ::marker{
     content: ""   ";
     
 }
-ul a:hover{
-    color: brown;
-    background-color: red;
-    cursor: pointer;
+p{
+    
+    background-color: brown;
+}
+.span-para{
+    display: inline-block;
+    background-color:blue;
+    color :white;
+    padding:8rem;
 }
