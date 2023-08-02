@@ -13,6 +13,11 @@ ul{
 }
 ul ::marker{
     color:cadetblue;
-    content: "hai this is sajith    ";
+    content: ""   ";
     
+}
+ul a:hover{
+    color: brown;
+    background-color: red;
+    cursor: pointer;
 }
