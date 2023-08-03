@@ -3,16 +3,33 @@
 
 .block{
     background-color:blue;
-    width: 30vw;
-    height: 30vw;
+    width: 10vw;
+    height: 10vw;
     float:left;
 }
 p{
     background-color: red;
 }
-.hello{
+.hai{
+    float:left;
     background-color: yellow;
-    width: 30vw;
-    height: 30vw;
+    width: 10vw;
+    height: 10vw;
+}
+.hello{
+    float:right;
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+
+}
+.what{
+    clear:both;
+}
+
+section{
+    background-color:rgb(90, 168, 45);
+    /* overflow:auto; */
+    display:flow-root;
 }
 
