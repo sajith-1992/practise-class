@@ -9,5 +9,8 @@ body{
     column-count: 3;
     column-width: 300px;
     column-rule: 3px solid #000;
+    column-gap: rem;
 }
+.colo p {
+    margin-top: `1rem;}
 
