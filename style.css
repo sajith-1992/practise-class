@@ -17,9 +17,8 @@ grid-template-rows: minmax(150px,auto);
 
     
 }
-.box{
-    background-color: black;
-    color: white;
-    font-size: 2rem;
-    padding:1rem;
+.box:first-child{
+  background-color: red;
+  grid-column-start:1 ;
+   grid-column-end:3; 
 }
